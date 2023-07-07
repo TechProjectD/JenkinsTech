@@ -65,8 +65,11 @@ pipeline{
 }
 ```
 我在pipeline的options块中使用了buildDiscarder命令，因此在BuildHistory中只保留了3次历史记录。
+
 ![](./attachments/Clipboard_2023-07-05-10-37-05.png)
+
 通过查看Console Ouput中的内容，能够看到在stages中，执行了对应的步骤，输出了hello，world指令
+
 ![](./attachments/Clipboard_2023-07-05-10-39-13.png)
 
 二、disableConcurrentBuilds参数
